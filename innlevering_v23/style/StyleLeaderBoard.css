@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+.sentrert{
+    text-align: center;
+}
+#leaderBoard {
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-top: 5%;
+    width: 50%; 
+    color: white;
+}
+
+th, td {
+    border: 2px solid whitesmoke;
+    padding: 3px;
+}
+
+
+thead{
+    background:#6600cc ;
+}
+tbody{
+    background-color: #9900cc;
+}
+tbody:nth-child(odd) {
+    background-color: #cc00cc;
+
+}
+
+.vis{
+    display: flex;
+}
+.gjem{
+    display: none;
+}
+

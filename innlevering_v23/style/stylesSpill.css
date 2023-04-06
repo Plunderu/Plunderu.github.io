@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* .navbar{
+    width: 100%;
+} */
+
+#brett{
+    margin-top: 5%;
+    background-color: black;
+
+}
+
+#kontroller{
+    width: 100%;
+}
+
+#hoyre{
+    font-size: 50px;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
+    border-left: 5px solid black;
+    background-color: #6600cc;
+}
+#venstre{
+    font-size: 50px;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
+    border-left: 5px solid black;
+    background-color: #6600cc;
+}
+#skyt{
+    font-size: 50px;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
+    border-left: 5px solid black;
+    background-color: #6600cc;
+}
+
+ #knapper{
+    display: flex;
+    justify-content: center;
+    width: 512px;
+
+}
+
+#start{
+    font-size: 50px;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    background-color: #6600cc;
+}
+ 
+ #restart{
+    font-size: 50px;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-right: 2.5px solid black;
+    border-left: 5px solid black;
+    background-color: #6600cc;
+}
+
+#volum{
+    font-size: 50px;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 2.5px solid black;
+    background-color: #6600cc;
+}
+
+
+
+#lagre{
+    font-size: 50px;
+    padding: 10px;
+    width: 512px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    background-color: #6600cc;
+
+} 
+
+#input{
+    color: white;
+
+}
+
+#leggTil{
+   border: 1px solid lightslategray;
+   color: white;
+   padding: 5px;
+   background-color: #6600cc;
+
+}
+
+/* Hoverfunksjon */
+
+
+#restart:hover{
+    cursor: pointer;
+    background-color: #9900cc;
+}
+
+#volum:hover{
+    cursor: pointer;
+    background-color: #9900cc;
+}
+
+#lagre:hover{
+    cursor: pointer;
+    background-color: #9900cc;
+}
+
+#leggTil:hover{
+    cursor: pointer;
+    background-color: #9900cc;
+}
+
+#start:hover{
+    cursor: pointer;
+    background-color: #9900cc;
+}
+
+/* Gjemmer og viser lagreknapp */
+.gjem{
+    display: none;
+}
+.vis{
+    display: flex;
+}
+
+@media(max-width: 512px){
+    /* endrer grid til å være på to kolonner */
+    #brett{
+        margin-top: 0%;
+    }
+    #knapper{
+        width: 100% ;
+    }
+    #lagre{
+        width: 100%;
+    }
+}
+
+

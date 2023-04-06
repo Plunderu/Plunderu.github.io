@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spill</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/style/styleNav.css">
+    <link rel="stylesheet" href="/style/stylesSpill.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/index.html"><img src="https://raw.githubusercontent.com/ImKennyYip/space-invaders/master/alien-magenta.png" alt="Angriperbilde" id="logoBilde"></a>
+
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav"> 
+            <a href="spill.html">Spill</a>
+            <a href="leaderBoard.html">LeaderBoard</a>
+            <a href="tilbakemelding.html">Tilbakemelding</a>
+        </div>
+    </div>
+        <canvas id="brett"></canvas>
+
+    <div id="kontroller" class="gjem">
+        <button id="venstre"><i class="fa-solid fa-left-long"></i></button>
+        <button id="skyt"><i class="fa-solid fa-gun"></i></button>
+        <button id="hoyre"><i class="fa-solid fa-right-long"></i></button>
+
+    </div>    
+    <div id="knapper">
+<!--         <button id="start" class="vis" aria-label="startknapp"><i class="fa-solid fa-play"></i></button> -->
+        <button id="restart" class="gjem"><i class="fa-solid fa-arrows-rotate"></i></button>
+        <button id="volum" class="gjem" ><i class="fa-solid fa-volume-xmark"></i></button>
+
+    </div>
+
+    <button id="lagre" class="gjem"> <i class="fa-solid fa-download"></i> </button>
+    <div id="input" class="gjem">
+        <p>Skriv inn navnet ditt: <input id="navn" type="text"></p>
+    </div>
+    <button id="leggTil" class="gjem" >Legg til i Leaderboard</button>
+
+
+    <script src="/script/scriptFelles.js"></script>
+    <script src="/script/scriptSpill.js"></script>
+</body>
+</html>
